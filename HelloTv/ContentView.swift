@@ -21,9 +21,7 @@ struct ContentView: View {
             Text("Turno del jugador: \(game.currentPlayer.description)")
                 .font(.headline)
                 .padding(.bottom)
-
             VStack(spacing: 10) {
-                
                 ForEach(0 ..< 3) { row in
                     HStack(spacing: 10) {
                         ForEach(0 ..< 3) { column in
